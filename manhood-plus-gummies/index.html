@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse des Gommes MANHOOD PLUS - N'achetez pas avant d'avoir lu ceci !</title>
+    <style  type="text/css">
+    :root {
+    --primary-color: #494949;
+    --secondary-color: #626262;
+    --warning-color: #dc3545;
+    --accent-color: #ffc107;
+    --text-color: #212529;
+    --bg-color: #f8f9fa;
+    --card-bg: #ffffff;
+    --header-bg: #ffffff;
+    --border-color: #dee2e6;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    --transition: all 0.3s ease;
+    --text-shadow: 0 1px 1px rgb(0 0 0 / 19%);
+}
+    [name="6c2"], [name="5c"] { display: none; }
+
+    /* Reset e estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.test-star{
+    max-height: 1.4rem;
+    margin: 0.5rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Cabeçalho e navegação */
+header {
+    background-color: var(--header-bg);
+    color: white;
+    padding: 15px 0;
+    box-shadow: var(--shadow);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid var(--border-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--secondary-color);
+    text-shadow: var(--text-shadow);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+    position: relative;
+}
+
+.nav-links a:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--secondary-color);
+    transition: var(--transition);
+}
+
+.nav-links a:hover {
+    color: var(--secondary-color);
+}
+
+.nav-links a:hover:after {
+    width: 100%;
+}
+
+/* Seções gerais */
+section {
+    padding: 20px 0;
+}
+
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    border-left: 5px solid var(--primary-color);
+    padding-left: 15px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: var(--accent-color);
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+time {
+    font-style: italic;
+    color: #FFF;
+    text-shadow: var(--text-shadow);
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 0;
+    background: linear-gradient(
+                135deg,
+                color-mix(in srgb, var(--primary-color) 80%, white),
+                var(--primary-color)
+                );
+    color: white;
+    border-radius: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at top right, var(--primary-color), transparent 70%);
+    opacity: 0.1;
+}
+
+.hero h1 {
+    padding-top: 1.5rem;
+    line-height: normal;
+    color: white;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.hero h2 {
+    line-height: normal;
+    color: var(--accent-color);
+    border: none;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    text-shadow: -1px -1px 0 #555555, 1px -1px 0 #555555, -1px 1px 0 #555555, 1px 1px 0 #555555;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    margin: 30px 0;
+    border-radius: 8px;
+    
+
+}
+
+/* Lista de benefícios */
+.benefits-list {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.benefits-list li {
+    margin-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
+    font-size: 1.1rem;
+}
+
+.benefits-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Grid de ingredientes */
+.ingredient-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.ingredient-card {
+    background: var(--header-bg);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    border-top: 4px solid var(--primary-color);
+    border: 1px solid var(--border-color);
+}
+
+.ingredient-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border-color: var(--primary-color);
+}
+
+.ingredient-card h3 {
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+}
+
+.ingredient-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.ingredient-card li {
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.ingredient-card li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.ingredient-card-alt {
+    background: var(--primary-color);
+    color: white;
+    text-shadow: var(--text-shadow);
+}
+
+.ingredient-card-alt h3 {
+    color: white;
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+    text-shadow: var(--text-shadow);
+}
+
+
+.ingredient-card-alt li::before {
+    color: white;
+    text-shadow: var(--text-shadow);
+}
+
+/* Referências científicas */
+.references {
+    background-color: var(--bg-color);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border-left: 4px solid var(--primary-color);
+    border: 1px solid var(--border-color);
+}
+
+.references h3 {
+    margin-bottom: 15px;
+}
+
+.references ul {
+    list-style: none;
+}
+
+.references li {
+    margin-bottom: 10px;
+}
+
+.references a {
+    color: var(--secondary-color);
+    word-break: break-all;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.references a:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
+}
+
+/* Depoimentos */
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    border-color: var(--primary-color);
+}
+
+.testimonial-card:before {
+    content: "\"";
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 60px;
+    color: var(--primary-color);
+    opacity: 0.2;
+}
+
+.testimonial-card {
+    background: var(--header-bg);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    position: relative;
+    transition: var(--transition);
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.avatar {
+  border-radius: 50%;
+  max-height: 3rem;
+  margin-right: 15px;
+  border: 4px solid #87808045;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin-top: 15px;
+    font-style: italic;
+}
+
+/* Call to Action */
+.cta-button {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: #222;
+    padding: 15px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 30px;
+    transition: var(--transition);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.cta-button:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: var(--transition);
+    z-index: -1;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.cta-button:hover:before {
+    left: 100%;
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--header-bg);
+    color: var(--text-color);
+    padding: 40px 0;
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+}
+
+.disclaimer {
+    font-size: 0.9rem;
+    color: #999;
+    margin-top: 20px;
+}
+
+/* Efeitos de brilho e detalhes */
+.glow-effect {
+    position: relative;
+}
+
+.glow-effect:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 20px rgba(74, 222, 171, 0.2);
+    opacity: 0;
+    transition: var(--transition);
+    z-index: -1;
+}
+
+.glow-effect:hover:after {
+    opacity: 1;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.6rem;
+        text-shadow: var(--text-shadow);
+    }
+    
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+    
+    .ingredient-grid, .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .nav-links {
+        display: none;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+    
+    section {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .hero h2 {
+        font-size: 1.4rem;
+    }
+    
+    .cta-button {
+        padding: 12px 30px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Animações suaves */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+section {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Barra de rolagem personalizada */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--header-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-color);
+}
+
+li{
+    margin-left: 10px;
+}
+
+.veredict {
+    text-align: center;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    text-shadow: var(--text-shadow);
+    padding: 80px 0;
+    border-radius: 0;
+}
+
+.veredict h2 {
+    color: white;
+    text-shadow: var(--text-shadow);
+    border: none;
+}
+
+.veredict h2{
+    font-size: 3rem;
+}
+
+.imgs-cientific{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.img-cientific{
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    margin: 10px;
+    max-height: 300px;
+}
+
+@media (max-width: 768px) {
+    .img-cientific {
+        width: 40%;
+    }
+}
+
+.cientifc-base{
+    background-color: white;
+}
+
+
+
+.approved {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.img-selos{
+    max-width: 86%;
+    max-height: 109px;
+}
+
+.warning {
+    text-align: center;
+    color: white;
+    text-shadow: var(--text-shadow);
+    padding: 80px 0;
+    border-radius: 0;
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--warning-color)!important;
+}
+
+.warning h3 {
+    color: white;
+    text-shadow: var(--text-shadow);
+    border: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.warning h2 {
+    color: white;
+    text-shadow: var(--text-shadow);
+    border: none;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.warning p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-date{
+    padding: 1rem .5rem;
+}
+
+    </style>
+    <script src="https://cdn.jsdelivr.net/gh/opadim/script/cnl.js" defer></script>
+
+<!-- Google tag (gtag.js) --> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17015638902"></script> 
+<script>
+ window.dataLayer = window.dataLayer || []; 
+function gtag(){dataLayer.push(arguments);} 
+gtag('js', new Date()); 
+
+gtag('config', 'AW-17015638902'); 
+</script>
+<script>
+    function click() {
+      document.getElementById("goToPage").click();
+    }
+    </script>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">coretrustmedia.com</div>
+                <ul class="nav-links">
+                    <li><a href="#beneficios" name="2c">Avantages</a></li>
+                    <li><a href="#ingredientes" name="5c">Ingrédients</a></li>
+                    <li><a href="#como-funciona" name="4c">Comment ça Marche</a></li>
+                    <li><a href="#resultados" name="11c">Résultats</a></li>
+                    <li><a href="#onde-comprar" >Où Acheter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container" style="padding: 3rem .5rem;">
+            <div id="headline">
+                <h1>Analyse des Gommes MANHOOD PLUS - N'achetez pas avant d'avoir lu ceci !</h1>
+                <h2 style="font-style: italic;">Nous avons analysé des dizaines de sites et de forums spécialisés pour comprendre ce que sont les Gommes MANHOOD PLUS, leurs risques, leurs avantages et si le produit donne réellement des résultats.</h2>
+            </div>
+            <div id="midia">
+                <image src="data:image/png;base64,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" id="image" alt="MANHOOD PLUS Gummies" style="width: 450px; display: none;" class="hero-image"></image>    
+                <video class="hero-video" id="video" controls  style="display: none;">
+                <source src="" type="video/mp4" id="video-mp4">
+                </video>
+            </div>
+        </div>
+        <div class="container hero-date" style="flex-direction: row;">
+            <time id="date">Publié le 01/10/2025 | Source : Site officiel MANHOOD PLUS Gummies, Forums et blogs.</time>
+        </div>
+    </section>
+
+    <section style="padding: 5px;">
+        <div class="container" style="text-align: center;padding: 0;">
+            <a href="https://www.knownwalk.com/2Q47WFQ9/XT5X2NX/" class="cta-button" style="margin: 2rem;" >Acheter maintenant sur le site officiel</a>
+        </div>
+    </section>
+
+    <section style="text-align: center; padding: 10px 0;">
+        <img src="https://i.imgur.com/aDXhHHI.png" class="img-selos">
+    </section>
+
+    <section id="beneficios" name="2c">
+        <div class="container">
+            <h2>Avantages des Gommes MANHOOD PLUS</h2>
+            <ul class="benefits-list" id="benefits-list">
+                <!-- <li>Aumenta os níveis de mitocôndrias</li>
+                <li>Promove a queima de calorias</li>
+                <li>Aumenta a energia</li>
+                <li>Reduz o estresse</li>
+                <li>Melhora o humor</li> -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="3c">
+        <div class="container">
+            <h2>Que sont les Gommes MANHOOD PLUS ?</h2>
+            <p>Les MANHOOD PLUS Gummies sont présentées comme une solution pour les hommes qui souhaitent améliorer leur fonction sexuelle, augmenter leur libido, obtenir des érections plus fortes et potentiellement augmenter la taille de leur pénis. Elles sont commercialisées comme une alternative aux autres options telles que la chirurgie.</p>
+        </div>
+    </section>
+
+    <section id="como-funciona" id="4c">
+        <div class="container">
+            <h2>Comment fonctionnent les Gommes MANHOOD PLUS ?</h2>
+            <p>D'après notre recherche, le produit fonctionne en ciblant les causes profondes de la dysfonction érectile, en augmentant le flux sanguin vers le pénis et en stimulant la production de testostérone. La prise régulière est recommandée pour des effets optimaux, avec une dose supplémentaire possible avant les rapports sexuels pour augmenter l'endurance.</p>
+        </div>
+    </section>
+
+    <section style="padding: 5px;">
+        <div class="container" style="text-align: center;padding: 0;">
+            <a href="https://www.knownwalk.com/2Q47WFQ9/XT5X2NX/" class="cta-button" style="margin: 2rem;" >Acheter maintenant sur le site officiel</a>
+        </div>
+    </section>
+
+    <section id="ingredientes" name="5c">
+        <div class="container">
+            <h2>{5t}</h2>
+            <div class="ingredient-grid" id="ingredient-list">
+            </div>
+        </div>
+    </section>
+
+    <section id="base-cientifica" class="cientifc-base" name="6c">
+        <div class="container">
+            <h2>Base Scientifique</h2>
+            <p>Le texte mentionne que les gummies sont basées sur des décennies de recherche et sont scientifiquement prouvées pour améliorer les performances sexuelles. Cependant, aucune référence scientifique spécifique n'est fournie.</p>
+            <div class="imgs-cientific">
+                <img src="https://i.imgur.com/EEx4ucp.jpeg" class="img-cientific">
+                <img src="https://i.imgur.com/sR3L8MK.jpeg" class="img-cientific">
+                <img src="https://i.imgur.com/TKEPga4.jpeg" class="img-cientific">
+            </div>
+            <div class="references" name="6c2">
+                <ul id="references">
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="mecanismo-acao" name="7c">
+        <div class="container">
+            <h2>Mécanisme d'Action</h2>
+            <p>Le mécanisme d'action annoncé inclut l'augmentation du flux sanguin vers le pénis, la stimulation de la testostérone, la revitalisation des niveaux d'énergie et l'amélioration de l'éjaculation pour des orgasmes plus intenses.</p>
+        </div>
+    </section>
+    <section style="padding: 5px;">
+        <div class="container" style="text-align: center;padding: 0;">
+            <a href="https://www.knownwalk.com/2Q47WFQ9/XT5X2NX/" class="cta-button" style="margin: 2rem;" >Acheter maintenant sur le site officiel</a>
+        </div>
+    </section>
+
+    <section id="processo-uso" name="8c">
+        <div class="container">
+            <h2>Processus d'Utilisation</h2>
+            <p>Le processus d'utilisation est simple : prendre 1 gomme par jour avec ou avant un repas (matin ou soir) pendant 30 jours, et répéter si nécessaire. Pour une endurance sexuelle accrue, une gomme supplémentaire peut être prise 30 minutes avant le rapport sexuel.</p>
+        </div>
+    </section>
+
+    <section id="tempo-resultados">
+        <div class="container">
+            <h2>Temps Attendu pour les Résultats</h2>
+            <p>Selon ce qui est fréquemment rapporté sur les forums et les blogs, les Gommes MANHOOD PLUS présentent généralement des résultats visibles dès les 20 premiers jours, et dans certains cas, dès les 10 premiers jours.</p>
+        </div>
+    </section>
+
+    <section id="problemas-resolve" name="9c">
+        <div class="container">
+            <h2>Problèmes que les Gommes MANHOOD PLUS Résolvent</h2>
+            <p>Mauvaise qualité de l'érection, Perte de masse musculaire, Peau appauvrie, Prise de poids excessive, Perte d'énergie et de motivation, Calvitie et perte de cheveux, Pénis de petite taille, Éjaculation précoce, Faible libido, Anxiété avant les rapports intimes, Manque de confiance dans les performances sexuelles</p>
+        </div>
+    </section>
+    <section class="warning">
+        <div class="container">
+            <h2>Attention !</h2>
+            <p>Des versions contrefaites des Gommes MANHOOD PLUS sont vendues sur des sites non officiels et des places de marché. En plus de ne pas fonctionner, elles peuvent mettre votre santé en danger.</p>
+            <h3>Pour votre sécurité, achetez uniquement sur le site officiel.</h3>
+            <a href="https://www.knownwalk.com/2Q47WFQ9/XT5X2NX/" class="cta-button" >Acheter maintenant sur le site officiel</a>
+        </div>
+    </section>
+
+    <section id="resultados" name="10c">
+        <div class="container">
+            <h2>Histoires de Réussite Réelles</h2>
+            <div class="testimonial-grid" id="testimonial-list">
+               
+            </div>
+        </div>
+    </section>
+
+    <section class="veredict">
+        <div class="container">
+            <h2>Verdict Final</h2>
+            <p>Sur la base de notre analyse complète des ingrédients, des preuves scientifiques et des témoignages d'utilisateurs, les Gommes MANHOOD PLUS semblent être un supplément légitime et efficace avec des résultats rapides et durables. Sa formule naturelle avec des ingrédients cliniquement étudiés offre une approche sûre pour améliorer la santé métabolique et donc cette...</p>
+            <p class="approved">APPROUVÉ !</p>
+            <img src="https://i.imgur.com/rOeo99a.png" class="img-selos">
+        </div>
+    </section>
+    <section id="onde-comprar">
+        <div class="container" style="text-align: center;">
+            <h2>Où Acheter les Gommes MANHOOD PLUS</h2>
+            <p>Pour vous assurer d'acquérir le produit original avec une garantie de qualité, nous vous recommandons d'acheter directement sur le site officiel du fabricant.</p>
+            <p>Vous y trouverez également des promotions exclusives et des réductions spéciales pour les lecteurs de cette revue.</p>
+            <a href="https://www.knownwalk.com/2Q47WFQ9/XT5X2NX/" class="cta-button" >Acheter maintenant sur le site officiel</a>
+        </div>
+    </section>
+    <section style="text-align: center;">
+        <img src="https://i.imgur.com/aDXhHHI.png" class="img-selos">
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 coretrustmedia.com. Tous droits réservés.</p>
+            <p class="disclaimer">Avertissement : Les informations contenues sur ce site sont uniquement à des fins éducatives et ne remplacent pas un avis médical professionnel. Les résultats individuels peuvent varier. Consultez toujours un professionnel de la santé avant de commencer tout traitement.</p>
+        </div>
+    </footer>
+</body>
+<script>
+    const initBenefits = () => {
+        const benefits = ["Amélioration de la libido et du désir sexuel", "Augmentation de la longueur et de la circonférence du pénis", "Érections plus grandes et plus dures", "Plus grande longévité sexuelle", "Amélioration de la sensibilité de l'orgasme"];
+        for (let index = 0; index < benefits.length; index++) {
+        const element = benefits[index];
+        const blist = document.getElementById('benefits-list');
+        blist.innerHTML += `<li>${element}</li>`;
+        }
+    }
+    const initReferences = () => {
+        const references = [];
+        for (let index = 0; index < references.length; index++) {
+        const element = references[index];
+        const blist = document.getElementById('references');
+        blist.innerHTML += `<li><a href="${element}" target="_blank">${element}</a></li>`;
+        }
+    }
+
+    const returnLeaf = (fillColor) => {
+        return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2.5rem" height="1rem" viewBox="0 0 3000 2547">
+            <path fill="${fillColor}" fill-rule="nonzero" fill-opacity="1" d="M 1391.261719 2498.988281 C 1311.800781 2387.636719 1245.980469 2351.078125 1043.289062 2305.722656 C 941.855469 2283.023438 722.480469 2178.789062 598.441406 2094.355469 C 466.839844 2004.78125 312.761719 1847.730469 216.453125 1705.003906 C 169.558594 1635.511719 89.796875 1471.78125 62.875 1389.738281 C -18.011719 1143.25 -20.78125 837.871094 54.144531 426.878906 C 70.394531 337.761719 84.480469 252.53125 102.683594 133.199219 C 105.484375 114.859375 111.585938 98.578125 116.242188 97.03125 C 120.902344 95.46875 136.976562 110.910156 151.960938 131.320312 C 199.320312 195.839844 302.363281 269.640625 496.226562 377.910156 C 611.011719 442.011719 805.699219 571.230469 888.601562 638.351562 C 984.929688 716.328125 1102 839.390625 1162.050781 925.78125 C 1249.5 1051.601562 1298.71875 1165.039062 1326.980469 1305.949219 C 1346.011719 1400.851562 1347.429688 1584.746094 1330.460938 1758.015625 C 1317.089844 1894.605469 1315.230469 2055.035156 1326.300781 2118.996094 C 1330.421875 2142.859375 1337.148438 2181.890625 1341.25 2205.730469 C 1349.660156 2254.703125 1376.808594 2346.667969 1410.851562 2441.574219 C 1453.199219 2559.640625 1447.160156 2577.332031 1391.261719 2498.988281 Z M 1512.359375 2307.765625 C 1506.421875 2298.148438 1520.429688 1800.1875 1529.941406 1683.234375 C 1566.640625 1231.589844 1633.558594 983.109375 1776.808594 766.488281 C 1848.359375 658.308594 2008.441406 495.5 2122.320312 415.121094 C 2311.289062 281.730469 2530.429688 174.621094 2849.878906 59.539062 C 2902.078125 40.730469 2955.839844 18.640625 2969.320312 10.441406 C 2991.058594 -2.761719 2994.371094 -3.101562 2998.429688 7.480469 C 3000.949219 14.039062 3000.378906 25.359375 2997.171875 32.621094 C 2993.960938 39.878906 2988.960938 212.210938 2986.070312 415.558594 C 2981.019531 769.980469 2979.96875 789.921875 2960.820312 896.851562 C 2903.75 1215.519531 2791.03125 1494.890625 2639.191406 1693.964844 C 2384.199219 2028.269531 2103.898438 2199.917969 1665.808594 2290.03125 C 1569.339844 2309.871094 1517.378906 2315.878906 1512.359375 2307.765625 Z M 1512.359375 2307.765625 "/>
+            </svg>`
+    }
+
+    const initIngredients = () => {
+        const ingredients = [];
+        for (let index = 0; index < ingredients.length; index++) {
+            const par =  index % 2 === 1 ;
+            const element = ingredients[index];
+            const blist = document.getElementById('ingredient-list');
+            const cardClass = par ? 'ingredient-card' : 'ingredient-card ingredient-card-alt';
+            blist.innerHTML += `<div class="${cardClass}">
+            <h3>${returnLeaf(par ? 'var(--primary-color)': 'white')} ${element.name}</h3>
+            <ul>
+            ${element.benefits.map(benefit => `<li>${benefit}</li>`).join('')}
+            </ul>
+        </div>`;
+    }};
+
+    const male_list = ['P413VyZ','d6yNGww','xu4zSCy','ZHLz3dp','XZtWbJ0','V8Cylbm','t2Hhd6V','wxZorsv'].sort(() => Math.random() - 0.5);
+    const female_list = ['O8yOsG3','qlkoYMJ','xuGObwR','Fq830VU','JGaFDs7','fHiXxmD','x9WMnrj','yUvjxPw','hbgcL8U','Y70fO0d','OUBPCSj'].sort(() => Math.random() - 0.5);
+
+    const initTestimonials = () => {
+        const testimonialList = [{"name":"Gérard S.","history":"Gérard a essayé les gummies sur la recommandation d'un ami. Il a remarqué une différence après les premières semaines, avec des érections plus grandes et intenses. Il a commandé une autre bouteille et prévoit de continuer à les utiliser.","gender":"male"},{"name":"Mael F.","history":"Mael était sceptique mais a décidé d'essayer les gummies en raison de la garantie de remboursement. Il a constaté une amélioration de sa libido et de son énergie, ainsi qu'un gain de taille. Il est satisfait des résultats.","gender":"male"},{"name":"François W.","history":"François pensait que les compléments alimentaires ne fonctionnaient pas, mais les avis positifs l'ont convaincu d'essayer. Il a ressenti un regain d'énergie, suivi d'une amélioration de sa libido. Il a commencé à faire de l'exercice pour optimiser les résultats.","gender":"male"},{"name":"Adélard M.","history":"Adélard a essayé plusieurs autres pilules avant les MANHOOD PLUS Gummies et les considère comme les plus efficaces. Il a ressenti un regain d'énergie dès la première prise, suivi d'une amélioration de la libido et des érections.","gender":"male"}];
+        for (let index = 0; index < testimonialList.length; index++) {
+        const element = testimonialList[index];
+        const blist = document.getElementById('testimonial-list');
+        blist.innerHTML += `<div class="testimonial-card">
+            <p>"${element.history}"</p>
+            <div class="testimonial-footer">
+                <img src="https://i.imgur.com/${element.gender === 'male' ? male_list[index] :  female_list[index]}.png" class="avatar">
+                <div class="right">
+                    <div class="testimonial-name">${element.name}</div>
+                    <div><img src="https://i.imgur.com/rOeo99a.png" class="test-star"></div>
+                </div>
+            </div>
+        </div>`;
+        }
+    };
+
+    const showMidia = () => {
+        const midia = 'image'
+        const image = document.getElementById('image');
+        const video = document.getElementById('video');
+        if(midia == 'image'){
+          image.style.display = '';
+        }else{
+          video.style.display = '';
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        initBenefits();
+        initReferences();
+        initIngredients();
+        initTestimonials();
+        showMidia();
+    });
+
+
+</script>
+</html>
